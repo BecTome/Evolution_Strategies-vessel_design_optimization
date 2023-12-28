@@ -36,11 +36,16 @@ $$
 subject to:
 
 $$
-g_1(x) = -x_1 + 0.0193x_3 \leq 0, \\
-g_2(x) = -x_2 + 0.00954x_3 \leq 0, \\
-g_3(x) = -\pi x_3^2x_4 - \frac{4}{3}\pi x_3^3 + 1296000 \leq 0, \\
-g_4(x) = x_4 - 240 \leq 0 \\
+\begin{equation*}
+\begin{split}
+g_1(x) &= -x_1 + 0.0193x_3 \leq 0, \\
+g_2(x) &= -x_2 + 0.00954x_3 \leq 0, \\
+g_3(x) &= -\pi x_3^2x_4 - \frac{4}{3}\pi x_3^3 + 1296000 \leq 0, \\
+g_4(x) &= x_4 - 240 \leq 0. \\
+\end{split}
+\end{equation*}
 $$
+
 
 The problem domain is the compact $[0.0625, 6.1875]\times[0.0625, 6.1875]\times[10, 200]\times[10, 200]$. 
 The Weierstrass Extreme Value Theorem states that a continuous function on a compact set 
