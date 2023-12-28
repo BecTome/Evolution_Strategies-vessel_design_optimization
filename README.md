@@ -28,11 +28,13 @@ denoted as X = (Ts, Th, R, L) = (x1, x2, x3, x4).
 </p>
 
 minimize
+
 $$
 f(x) = 0.6224x_1x_3x_4 + 1.7781x_2x_3^2 + 3.1661x_1^2x_4 + 19.84x_1^2x_3
 $$
 
 subject to:
+
 $$
 g_1(x) = -x_1 + 0.0193x_3 \leq 0, \\
 g_2(x) = -x_2 + 0.00954x_3 \leq 0, \\
